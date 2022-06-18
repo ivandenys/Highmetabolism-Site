@@ -12,18 +12,21 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="about" onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="music" onClick={toggle}>
+                    {/* <SidebarLink to="music" onClick={toggle}>
                         Music
                     </SidebarLink>
                     <SidebarLink to="shows" onClick={toggle}>
                         Shows
+                    </SidebarLink> */}
+                    <SidebarLink to="programs" onClick={toggle}>
+                        Programs
                     </SidebarLink>
-                    <SidebarLink to="store" onClick={toggle}>
-                        Store
+                    <SidebarLink to="merch" onClick={toggle}>
+                        Merch
                     </SidebarLink>
-                    <SidebarLink to="gallery" onClick={toggle}>
+                    {/* <SidebarLink to="gallery" onClick={toggle}>
                         Gallery
-                    </SidebarLink>
+                    </SidebarLink> */}
                     <SidebarLink to="contact" onClick={toggle}>
                         Contact
                     </SidebarLink>

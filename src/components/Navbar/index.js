@@ -4,7 +4,7 @@ import {
     Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu,
     NavItem, NavLinks, NavBtn, NavBtnLink, NavImg
 } from './NavbarElements'
-import Image from '../../images/logo-white.png';
+import Image from '../../images/hm-logo3.png';
 
 const Navbar = ({toggle}) => {
     return (
@@ -42,8 +42,11 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                        <NavBtnLink to="/signin">Instagram</NavBtnLink>
                     </NavBtn>
+                    {/* <NavBtn>
+                        <NavBtnLink to="/signin">Tiktok</NavBtnLink>
+                    </NavBtn> */}
                 </NavbarContainer>
             </Nav>
         </>
