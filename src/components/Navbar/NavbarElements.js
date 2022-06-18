@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 import { Link as LinkR} from 'react-router-dom'
 import { Link as LinkS} from 'react-scroll'
+import img from '../../images/logo-white.png'
 
 export const Nav = styled.nav`
     background: #000;
     height: 80px;
-   /* margin-top: -80px; */
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,12 +23,21 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 8px;
+    height: 30px;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
-    max-width: 1100px;
+    max-width: 2000px;
 `;
+
+// Custom stuff here
+export const NavImg = styled.img`
+    max-width: 100%;
+    max-height: 100%;
+    -o-object-fit: cover;
+    object-fit: auto;
+    background: transparent;
+`
 
 export const NavLogo = styled(LinkR)`
     color: #fff;
@@ -36,9 +46,10 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-let: 24px;
+    margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+    
 
 `;
 
@@ -61,7 +72,7 @@ export const NavMenu = styled.ul`
     display: flex;
     align-items: center;
     list-style: none;
-    tet-align: center;
+    text-align: center;
     margin-right: -22px;
 
     @media screen and (max-width: 768px) {
@@ -97,10 +108,11 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #5de8ea;
+    background: #640B78;
+    /* background: #F36EFF; */
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
+    color: #ffff;
     font-size: 16px;
     outline: none;
     border: none;
