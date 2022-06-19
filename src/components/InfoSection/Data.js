@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Who is High Metabolism?',
     headline: "Ivan's Story",
-    description: 'Ivan started his fitness journey in 2016. During his freshman year  ',
+    description: 'Tired of being the "tall skinny kid", I set off on my fitness journey in 2016. I quickly realized my task was different than the majority of my peers. While most of the people I knew were focused on losing weight, I found myself eating ridiculous amounts of food with seemingly no effect. Through years of trial and error, I have gained experience on how to build muscle and strength with "hardgainer" genetics, and hope to share this knowledge with others',
     buttonLabel: 'Learn More',
     imgStart: false, /*switch image - textfirst */
     img: require('../../images/ivan-1.jpg'),
@@ -16,16 +16,16 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: 'music',
+    id: 'programs',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Music',
-    headline: 'Now Streaming',
-    description: 'Soundcloud and Spotify',
-    buttonLabel: 'Listen Now',
+    topLine: 'Programs',
+    headline: "Ivan's Big and Strong Program",
+    description: 'Coming Soon...',
+    buttonLabel: 'Buy Now',
     imgStart: true, /*switch image - textfirst */
-    img: require('../../images/dreema-photo-2.jpg'),
+    img: require('../../images/ivan-2.jpg'),
     alt: 'Concert Image',
     dark: false,
     primary: false,
