@@ -1,4 +1,4 @@
-### This is a website made for a fitness brand using React
+# This is a website made for a fitness brand using React
 
 Inspired by: https://www.youtube.com/watch?v=Nl54MJDR2p8&list=PL_2sXTuxx_8ke9d7YilkBjCSK7NBciNsr&index=1&t=8268s&ab_channel=BrianDesign
 
