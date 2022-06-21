@@ -1,3 +1,5 @@
+#This is a website made for a fitness brand using react. Inspired by: https://www.youtube.com/watch?v=Nl54MJDR2p8&list=PL_2sXTuxx_8ke9d7YilkBjCSK7NBciNsr&index=1&t=8268s&ab_channel=BrianDesign
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
